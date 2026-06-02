@@ -1,0 +1,24 @@
+[1.429s] Invoking command in '/home/gowtham/crazyflie_ws/src/central_swarm_control': PYTHONPATH=/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/central_swarm_control build --build-base /home/gowtham/crazyflie_ws/build/central_swarm_control/build install --record /home/gowtham/crazyflie_ws/build/central_swarm_control/install.log --single-version-externally-managed install_data
+[1.873s] running egg_info
+[1.875s] writing ../../build/central_swarm_control/central_swarm_control.egg-info/PKG-INFO
+[1.875s] writing dependency_links to ../../build/central_swarm_control/central_swarm_control.egg-info/dependency_links.txt
+[1.876s] writing entry points to ../../build/central_swarm_control/central_swarm_control.egg-info/entry_points.txt
+[1.876s] writing requirements to ../../build/central_swarm_control/central_swarm_control.egg-info/requires.txt
+[1.876s] writing top-level names to ../../build/central_swarm_control/central_swarm_control.egg-info/top_level.txt
+[1.880s] reading manifest file '../../build/central_swarm_control/central_swarm_control.egg-info/SOURCES.txt'
+[1.881s] writing manifest file '../../build/central_swarm_control/central_swarm_control.egg-info/SOURCES.txt'
+[1.882s] running build
+[1.882s] running build_py
+[1.882s] copying central_swarm_control/control_node.py -> /home/gowtham/crazyflie_ws/build/central_swarm_control/build/lib/central_swarm_control
+[1.883s] running install
+[1.883s] running install_lib
+[1.884s] copying /home/gowtham/crazyflie_ws/build/central_swarm_control/build/lib/central_swarm_control/control_node.py -> /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control
+[1.885s] byte-compiling /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control/control_node.py to control_node.cpython-310.pyc
+[1.887s] running install_data
+[1.887s] running install_egg_info
+[1.890s] removing '/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.891s] Copying ../../build/central_swarm_control/central_swarm_control.egg-info to /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control-0.0.0-py3.10.egg-info
+[1.893s] running install_scripts
+[1.928s] Installing control_node script to /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/central_swarm_control
+[1.928s] writing list of installed files to '/home/gowtham/crazyflie_ws/build/central_swarm_control/install.log'
+[1.980s] Invoked command in '/home/gowtham/crazyflie_ws/src/central_swarm_control' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/central_swarm_control build --build-base /home/gowtham/crazyflie_ws/build/central_swarm_control/build install --record /home/gowtham/crazyflie_ws/build/central_swarm_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[2.611s] Invoking command in '/home/gowtham/crazyflie_ws/src/swarm_navigation': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_navigation build --build-base /home/gowtham/crazyflie_ws/build/swarm_navigation/build install --record /home/gowtham/crazyflie_ws/build/swarm_navigation/install.log --single-version-externally-managed install_data
+[3.251s] running egg_info
+[3.252s] writing ../../build/swarm_navigation/swarm_navigation.egg-info/PKG-INFO
+[3.252s] writing dependency_links to ../../build/swarm_navigation/swarm_navigation.egg-info/dependency_links.txt
+[3.253s] writing entry points to ../../build/swarm_navigation/swarm_navigation.egg-info/entry_points.txt
+[3.254s] writing requirements to ../../build/swarm_navigation/swarm_navigation.egg-info/requires.txt
+[3.254s] writing top-level names to ../../build/swarm_navigation/swarm_navigation.egg-info/top_level.txt
+[3.257s] reading manifest file '../../build/swarm_navigation/swarm_navigation.egg-info/SOURCES.txt'
+[3.259s] writing manifest file '../../build/swarm_navigation/swarm_navigation.egg-info/SOURCES.txt'
+[3.259s] running build
+[3.259s] running build_py
+[3.261s] running install
+[3.262s] running install_lib
+[3.264s] running install_data
+[3.264s] running install_egg_info
+[3.268s] removing '/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[3.269s] Copying ../../build/swarm_navigation/swarm_navigation.egg-info to /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm_navigation-0.0.0-py3.10.egg-info
+[3.271s] running install_scripts
+[3.316s] Installing navigation_node script to /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/swarm_navigation
+[3.319s] writing list of installed files to '/home/gowtham/crazyflie_ws/build/swarm_navigation/install.log'
+[3.395s] Invoked command in '/home/gowtham/crazyflie_ws/src/swarm_navigation' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_navigation build --build-base /home/gowtham/crazyflie_ws/build/swarm_navigation/build install --record /home/gowtham/crazyflie_ws/build/swarm_navigation/install.log --single-version-externally-managed install_data

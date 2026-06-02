@@ -1,0 +1,941 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x756596839840>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x756596838e20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x756596838e20>>, mixin_verb=('build',))
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.410s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gowtham/crazyflie_ws'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/central_swarm_control) by extension 'ros'
+[0.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/central_swarm_control' with type 'ros.ament_python' and name 'central_swarm_control'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['ignore', 'ignore_ament_install']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'ignore'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'ignore_ament_install'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['colcon_pkg']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'colcon_pkg'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['colcon_meta']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'colcon_meta'
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['ros']
+[0.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'ignore'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'ignore_ament_install'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extensions ['colcon_pkg']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'colcon_pkg'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extensions ['colcon_meta']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'colcon_meta'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extensions ['ros']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie) by extension 'ros'
+[0.436s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie' with type 'ros.ament_cmake' and name 'crazyflie'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extensions ['colcon_meta']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'colcon_meta'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extensions ['ros']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_examples) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie_examples' with type 'ros.ament_cmake' and name 'crazyflie_examples'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_interfaces) by extension 'ros'
+[0.458s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie_interfaces' with type 'ros.ament_cmake' and name 'crazyflie_interfaces'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_py) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie_py' with type 'ros.ament_python' and name 'crazyflie_py'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/crazyflie_sim) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyswarm2/crazyflie_sim' with type 'ros.ament_cmake' and name 'crazyflie_sim'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/generated) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'python'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extensions ['python_setup_py']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/howto) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/images) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'ros'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['cmake', 'python']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'python'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extensions ['python_setup_py']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs/tutorials) by extension 'python_setup_py'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'cmake'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'python'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extensions ['python_setup_py']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/docs2/images) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'ros'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/prebuilt) by extension 'python_setup_py'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'ros'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['cmake', 'python']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'cmake'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'python'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['cmake', 'python']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'python'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extensions ['python_setup_py']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ros'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['cmake', 'python']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'cmake'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'python'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['python_setup_py']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'python_setup_py'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'python_setup_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'python_setup_py'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ros'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['cmake', 'python']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'cmake'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'python'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['python_setup_py']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'python_setup_py'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyswarm2/systemtests/SDplotting) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_guidance) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swarm_guidance' with type 'ros.ament_python' and name 'swarm_guidance'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/swarm_navigation) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'src/swarm_navigation' with type 'ros.ament_python' and name 'swarm_navigation'
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.514s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/crazyswarm2/crazyflie_py' from colcon.pkg: {'python-testing': 'pytest'}
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.518s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gowtham/crazyflie_ws/install/swarm_navigation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gowtham/crazyflie_ws/install/swarm_guidance' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gowtham/crazyflie_ws/install/crazyflie_sim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gowtham/crazyflie_ws/install/crazyflie_examples' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gowtham/crazyflie_ws/install/crazyflie_py' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gowtham/crazyflie_ws/install/crazyflie' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.520s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/gowtham/crazyflie_ws/install/central_swarm_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.521s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/gowtham/crazyflie_ws/install/crazyflie_sim' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.521s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/gowtham/crazyflie_ws/install/crazyflie_examples' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.521s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/gowtham/crazyflie_ws/install/crazyflie' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.521s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/gowtham/crazyflie_ws/install
+[0.523s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/gowtham/swarm_ws/install
+[0.525s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'central_swarm_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'central_swarm_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowtham/crazyflie_ws/build/central_swarm_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowtham/crazyflie_ws/install/central_swarm_control', 'merge_install': False, 'path': '/home/gowtham/crazyflie_ws/src/central_swarm_control', 'symlink_install': False, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.581s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowtham/crazyflie_ws/build/crazyflie_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces', 'merge_install': False, 'path': '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_guidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.582s] DEBUG:colcon.colcon_core.verb:Building package 'swarm_guidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowtham/crazyflie_ws/build/swarm_guidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowtham/crazyflie_ws/install/swarm_guidance', 'merge_install': False, 'path': '/home/gowtham/crazyflie_ws/src/swarm_guidance', 'symlink_install': False, 'test_result_base': None}
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'cmake_target' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'swarm_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.582s] DEBUG:colcon.colcon_core.verb:Building package 'swarm_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowtham/crazyflie_ws/build/swarm_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowtham/crazyflie_ws/install/swarm_navigation', 'merge_install': False, 'path': '/home/gowtham/crazyflie_ws/src/swarm_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_target' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowtham/crazyflie_ws/build/crazyflie', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowtham/crazyflie_ws/install/crazyflie', 'merge_install': False, 'path': '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie', 'symlink_install': False, 'test_result_base': None}
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_target' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.584s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowtham/crazyflie_ws/build/crazyflie_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowtham/crazyflie_ws/install/crazyflie_py', 'merge_install': False, 'path': '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_py', 'symlink_install': False, 'test_result_base': None}
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_target' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.584s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowtham/crazyflie_ws/build/crazyflie_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowtham/crazyflie_ws/install/crazyflie_sim', 'merge_install': False, 'path': '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_sim', 'symlink_install': False, 'test_result_base': None}
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_target' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gowtham/crazyflie_ws/build/crazyflie_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gowtham/crazyflie_ws/install/crazyflie_examples', 'merge_install': False, 'path': '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_examples', 'symlink_install': False, 'test_result_base': None}
+[0.585s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.587s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces' with build type 'ament_cmake'
+[0.588s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces'
+[0.591s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.596s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gowtham/crazyflie_ws/src/central_swarm_control' with build type 'ament_python'
+[0.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('central_swarm_control', 'ament_prefix_path')
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/hook/ament_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/hook/ament_prefix_path.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/hook/ament_prefix_path.sh'
+[0.600s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.601s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gowtham/crazyflie_ws/src/swarm_guidance' with build type 'ament_python'
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_guidance', 'ament_prefix_path')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/hook/ament_prefix_path.ps1'
+[0.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/hook/ament_prefix_path.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/hook/ament_prefix_path.sh'
+[0.610s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.610s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.614s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gowtham/crazyflie_ws/src/swarm_navigation' with build type 'ament_python'
+[0.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_navigation', 'ament_prefix_path')
+[0.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/hook/ament_prefix_path.ps1'
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/hook/ament_prefix_path.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/hook/ament_prefix_path.sh'
+[0.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces
+[1.042s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gowtham/crazyflie_ws/src/central_swarm_control'
+[1.042s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.465s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gowtham/crazyflie_ws/src/swarm_guidance'
+[1.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.945s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gowtham/crazyflie_ws/src/swarm_navigation'
+[1.946s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.946s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/src/central_swarm_control': PYTHONPATH=/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/central_swarm_control build --build-base /home/gowtham/crazyflie_ws/build/central_swarm_control/build install --record /home/gowtham/crazyflie_ws/build/central_swarm_control/install.log --single-version-externally-managed install_data
+[2.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/src/swarm_navigation': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_navigation build --build-base /home/gowtham/crazyflie_ws/build/swarm_navigation/build install --record /home/gowtham/crazyflie_ws/build/swarm_navigation/install.log --single-version-externally-managed install_data
+[3.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/src/swarm_guidance': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_guidance build --build-base /home/gowtham/crazyflie_ws/build/swarm_guidance/build install --record /home/gowtham/crazyflie_ws/build/swarm_guidance/install.log --single-version-externally-managed install_data
+[3.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/src/central_swarm_control' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/central_swarm_control build --build-base /home/gowtham/crazyflie_ws/build/central_swarm_control/build install --record /home/gowtham/crazyflie_ws/build/central_swarm_control/install.log --single-version-externally-managed install_data
+[3.749s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/central_swarm_control' for CMake module files
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/central_swarm_control' for CMake config files
+[3.751s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/central_swarm_control/lib'
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/central_swarm_control/bin'
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/pkgconfig/central_swarm_control.pc'
+[3.752s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages'
+[3.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('central_swarm_control', 'pythonpath')
+[3.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/hook/pythonpath.ps1'
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/hook/pythonpath.dsv'
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/hook/pythonpath.sh'
+[3.756s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/central_swarm_control/bin'
+[3.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(central_swarm_control)
+[3.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/package.ps1'
+[3.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/package.dsv'
+[3.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/package.sh'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/package.bash'
+[3.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/package.zsh'
+[3.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/central_swarm_control/share/colcon-core/packages/central_swarm_control)
+[3.855s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_navigation' for CMake module files
+[3.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/src/swarm_navigation' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_navigation build --build-base /home/gowtham/crazyflie_ws/build/swarm_navigation/build install --record /home/gowtham/crazyflie_ws/build/swarm_navigation/install.log --single-version-externally-managed install_data
+[3.857s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_navigation' for CMake config files
+[3.858s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_navigation/lib'
+[3.858s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_navigation/bin'
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/pkgconfig/swarm_navigation.pc'
+[3.859s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages'
+[3.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_navigation', 'pythonpath')
+[3.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/hook/pythonpath.ps1'
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/hook/pythonpath.dsv'
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/hook/pythonpath.sh'
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_navigation/bin'
+[3.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swarm_navigation)
+[3.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/package.ps1'
+[3.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/package.dsv'
+[3.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/package.sh'
+[3.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/package.bash'
+[3.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation/package.zsh'
+[3.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/swarm_navigation/share/colcon-core/packages/swarm_navigation)
+[3.922s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_guidance' for CMake module files
+[3.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/src/swarm_guidance' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_guidance build --build-base /home/gowtham/crazyflie_ws/build/swarm_guidance/build install --record /home/gowtham/crazyflie_ws/build/swarm_guidance/install.log --single-version-externally-managed install_data
+[3.923s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_guidance' for CMake config files
+[3.924s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_guidance/lib'
+[3.924s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_guidance/bin'
+[3.924s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/pkgconfig/swarm_guidance.pc'
+[3.925s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages'
+[3.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('swarm_guidance', 'pythonpath')
+[3.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/hook/pythonpath.ps1'
+[3.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/hook/pythonpath.dsv'
+[3.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/hook/pythonpath.sh'
+[3.928s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/swarm_guidance/bin'
+[3.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(swarm_guidance)
+[3.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/package.ps1'
+[3.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/package.dsv'
+[3.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/package.sh'
+[3.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/package.bash'
+[3.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance/package.zsh'
+[3.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/swarm_guidance/share/colcon-core/packages/swarm_guidance)
+[4.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces
+[4.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_interfaces -- -j4 -l4
+[45.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_interfaces -- -j4 -l4
+[45.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_interfaces
+[45.979s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_interfaces)
+[45.979s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces' for CMake module files
+[45.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_interfaces
+[45.982s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces' for CMake config files
+[45.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'cmake_prefix_path')
+[45.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.ps1'
+[45.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.dsv'
+[45.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.sh'
+[45.987s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib'
+[45.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'ld_library_path_lib')
+[45.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.ps1'
+[45.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.dsv'
+[45.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.sh'
+[45.992s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/bin'
+[45.992s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib/pkgconfig/crazyflie_interfaces.pc'
+[45.993s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib/python3.10/site-packages'
+[45.994s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/bin'
+[45.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.ps1'
+[45.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv'
+[46.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.sh'
+[46.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.bash'
+[46.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.zsh'
+[46.003s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/colcon-core/packages/crazyflie_interfaces)
+[46.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_interfaces)
+[46.005s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces' for CMake module files
+[46.008s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces' for CMake config files
+[46.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'cmake_prefix_path')
+[46.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.ps1'
+[46.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.dsv'
+[46.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/cmake_prefix_path.sh'
+[46.015s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib'
+[46.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_interfaces', 'ld_library_path_lib')
+[46.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.ps1'
+[46.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.dsv'
+[46.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/hook/ld_library_path_lib.sh'
+[46.019s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/bin'
+[46.019s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib/pkgconfig/crazyflie_interfaces.pc'
+[46.020s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib/python3.10/site-packages'
+[46.021s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/bin'
+[46.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.ps1'
+[46.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv'
+[46.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.sh'
+[46.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.bash'
+[46.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.zsh'
+[46.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/share/colcon-core/packages/crazyflie_interfaces)
+[46.031s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_py' with build type 'ament_python'
+[46.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_py', 'ament_prefix_path')
+[46.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.ps1'
+[46.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.dsv'
+[46.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/hook/ament_prefix_path.sh'
+[46.033s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.033s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.038s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie' with build type 'ament_cmake'
+[46.039s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie'
+[46.039s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.039s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.045s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_sim' with build type 'ament_cmake'
+[46.045s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_sim'
+[46.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.485s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_py'
+[46.486s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.486s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie
+[46.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_sim -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie_sim
+[47.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_py': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/gowtham/crazyflie_ws/build/crazyflie_py/build install --record /home/gowtham/crazyflie_ws/build/crazyflie_py/install.log --single-version-externally-managed install_data
+[47.954s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_py' for CMake module files
+[47.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_py' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/gowtham/crazyflie_ws/build/crazyflie_py/build install --record /home/gowtham/crazyflie_ws/build/crazyflie_py/install.log --single-version-externally-managed install_data
+[47.955s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_py' for CMake config files
+[47.956s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_py/lib'
+[47.957s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_py/bin'
+[47.957s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/pkgconfig/crazyflie_py.pc'
+[47.957s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages'
+[47.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_py', 'pythonpath')
+[47.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.ps1'
+[47.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.dsv'
+[47.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/hook/pythonpath.sh'
+[47.961s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_py/bin'
+[47.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_py)
+[47.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/package.ps1'
+[47.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/package.dsv'
+[47.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/package.sh'
+[47.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/package.bash'
+[47.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py/package.zsh'
+[47.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie_py/share/colcon-core/packages/crazyflie_py)
+[47.966s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_examples' with build type 'ament_cmake'
+[47.966s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_examples'
+[47.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[47.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[47.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/build/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/build/central_swarm_control:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie-firmware/build:/home/gowtham/crazyflie-firmware/build:/home/gowtham/swarm_ws/install/guidance_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/control_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/consensus_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_examples -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie_examples
+[49.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_sim -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie_sim
+[49.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_sim -- -j4 -l4
+[50.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie
+[50.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie -- -j4 -l4
+[51.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_sim -- -j4 -l4
+[51.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_sim
+[51.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_sim)
+[51.778s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim' for CMake module files
+[51.779s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim' for CMake config files
+[51.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_sim', 'cmake_prefix_path')
+[51.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.ps1'
+[51.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_sim
+[51.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.dsv'
+[51.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.sh'
+[51.791s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/lib'
+[51.791s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/bin'
+[51.791s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/lib/pkgconfig/crazyflie_sim.pc'
+[51.795s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/lib/python3.10/site-packages'
+[51.796s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/bin'
+[51.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.ps1'
+[51.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv'
+[51.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.sh'
+[51.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.bash'
+[51.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.zsh'
+[51.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/colcon-core/packages/crazyflie_sim)
+[51.814s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_sim)
+[51.814s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim' for CMake module files
+[51.819s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim' for CMake config files
+[51.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_sim', 'cmake_prefix_path')
+[51.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.ps1'
+[51.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.dsv'
+[51.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/hook/cmake_prefix_path.sh'
+[51.829s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/lib'
+[51.829s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/bin'
+[51.830s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/lib/pkgconfig/crazyflie_sim.pc'
+[51.830s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/lib/python3.10/site-packages'
+[51.831s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_sim/bin'
+[51.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.ps1'
+[51.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv'
+[51.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.sh'
+[51.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.bash'
+[51.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.zsh'
+[51.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie_sim/share/colcon-core/packages/crazyflie_sim)
+[52.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/build/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/build/central_swarm_control:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie-firmware/build:/home/gowtham/crazyflie-firmware/build:/home/gowtham/swarm_ws/install/guidance_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/control_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/consensus_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_examples -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie_examples
+[52.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/build/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/build/central_swarm_control:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie-firmware/build:/home/gowtham/crazyflie-firmware/build:/home/gowtham/swarm_ws/install/guidance_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/control_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/consensus_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_examples -- -j4 -l4
+[54.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/build/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/build/central_swarm_control:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie-firmware/build:/home/gowtham/crazyflie-firmware/build:/home/gowtham/swarm_ws/install/guidance_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/control_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/consensus_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_examples -- -j4 -l4
+[54.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/build/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/build/central_swarm_control:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie-firmware/build:/home/gowtham/crazyflie-firmware/build:/home/gowtham/swarm_ws/install/guidance_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/control_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/consensus_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_examples
+[54.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_examples)
+[54.479s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples' for CMake module files
+[54.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/build/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie_ws/build/central_swarm_control:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie-firmware/build:/home/gowtham/crazyflie-firmware/build:/home/gowtham/swarm_ws/install/guidance_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/control_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/consensus_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_examples
+[54.481s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples' for CMake config files
+[54.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_examples', 'cmake_prefix_path')
+[54.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.ps1'
+[54.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.dsv'
+[54.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.sh'
+[54.491s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/lib'
+[54.492s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/bin'
+[54.492s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/pkgconfig/crazyflie_examples.pc'
+[54.492s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/python3.10/site-packages'
+[54.496s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/bin'
+[54.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.ps1'
+[54.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv'
+[54.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.sh'
+[54.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.bash'
+[54.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.zsh'
+[54.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/colcon-core/packages/crazyflie_examples)
+[54.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_examples)
+[54.514s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples' for CMake module files
+[54.516s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples' for CMake config files
+[54.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_examples', 'cmake_prefix_path')
+[54.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.ps1'
+[54.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.dsv'
+[54.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/hook/cmake_prefix_path.sh'
+[54.526s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/lib'
+[54.526s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/bin'
+[54.527s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/pkgconfig/crazyflie_examples.pc'
+[54.527s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/python3.10/site-packages'
+[54.531s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie_examples/bin'
+[54.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.ps1'
+[54.537s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv'
+[54.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.sh'
+[54.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.bash'
+[54.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.zsh'
+[54.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie_examples/share/colcon-core/packages/crazyflie_examples)
+[129.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie -- -j4 -l4
+[129.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie
+[129.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie)
+[129.779s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie' for CMake module files
+[129.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie
+[129.781s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie' for CMake config files
+[129.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie', 'cmake_prefix_path')
+[129.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.ps1'
+[129.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.dsv'
+[129.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.sh'
+[129.783s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/lib'
+[129.783s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/bin'
+[129.784s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/lib/pkgconfig/crazyflie.pc'
+[129.784s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/lib/python3.10/site-packages'
+[129.784s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/bin'
+[129.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.ps1'
+[129.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.dsv'
+[129.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.sh'
+[129.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.bash'
+[129.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.zsh'
+[129.787s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie/share/colcon-core/packages/crazyflie)
+[129.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie)
+[129.788s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie' for CMake module files
+[129.788s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie' for CMake config files
+[129.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie', 'cmake_prefix_path')
+[129.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.ps1'
+[129.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.dsv'
+[129.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/hook/cmake_prefix_path.sh'
+[129.790s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/lib'
+[129.790s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/bin'
+[129.790s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/lib/pkgconfig/crazyflie.pc'
+[129.791s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/lib/python3.10/site-packages'
+[129.791s] Level 1:colcon.colcon_core.environment:checking '/home/gowtham/crazyflie_ws/install/crazyflie/bin'
+[129.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.ps1'
+[129.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.dsv'
+[129.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.sh'
+[129.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.bash'
+[129.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.zsh'
+[129.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gowtham/crazyflie_ws/install/crazyflie/share/colcon-core/packages/crazyflie)
+[129.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[129.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[129.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[129.794s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[129.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[129.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[129.806s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[129.822s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[129.823s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowtham/crazyflie_ws/install/local_setup.ps1'
+[129.824s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gowtham/crazyflie_ws/install/_local_setup_util_ps1.py'
+[129.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowtham/crazyflie_ws/install/setup.ps1'
+[129.831s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowtham/crazyflie_ws/install/local_setup.sh'
+[129.832s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gowtham/crazyflie_ws/install/_local_setup_util_sh.py'
+[129.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowtham/crazyflie_ws/install/setup.sh'
+[129.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowtham/crazyflie_ws/install/local_setup.bash'
+[129.838s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowtham/crazyflie_ws/install/setup.bash'
+[129.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gowtham/crazyflie_ws/install/local_setup.zsh'
+[129.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gowtham/crazyflie_ws/install/setup.zsh'

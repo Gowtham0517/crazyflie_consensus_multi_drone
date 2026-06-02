@@ -1,0 +1,73 @@
+[0.055s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie -- -j4 -l4
+[0.368s] [ 22%] Built target crazyflieLinkCpp
+[0.410s] [ 27%] Built target teleop
+[0.451s] [ 35%] Built target crazyflie_cpp
+[0.581s] [ 40%] Built target scan
+[0.605s] [ 45%] Built target crazyflie_server
+[0.609s] [ 50%] Built target listParams
+[0.614s] [ 55%] Built target listLogVariables
+[0.701s] [ 60%] Built target listMemories
+[0.714s] [ 65%] Built target version
+[0.745s] [ 70%] Built target reboot
+[0.761s] [ 75%] Built target battery
+[0.819s] [ 80%] Built target comCheck
+[0.844s] [ 85%] Built target console
+[0.879s] [ 90%] Built target log
+[0.895s] [ 95%] Built target downloadUSDLogfile
+[0.915s] [100%] Built target setParam
+[0.956s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie -- -j4 -l4
+[0.958s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie
+[0.982s] -- Install configuration: ""
+[0.983s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/comCheck
+[0.983s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/scan
+[0.984s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/listParams
+[0.984s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/listLogVariables
+[0.985s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/listMemories
+[0.991s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/reboot
+[0.991s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/battery
+[0.992s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/version
+[0.992s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/console
+[0.993s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/log
+[0.993s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/setParam
+[0.995s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+[0.995s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/teleop
+[0.996s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+[0.997s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[0.998s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/chooser.py
+[0.998s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+[0.999s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/cfmult.py
+[1.000s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+[1.000s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/aideck_streamer.py
+[1.000s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/gui.py
+[1.000s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/lib/crazyflie/flash.py
+[1.002s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//launch
+[1.002s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[1.002s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[1.002s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//launch/launch.py
+[1.003s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//config
+[1.003s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[1.003s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[1.003s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//config/config.rviz
+[1.003s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//config/server.yaml
+[1.003s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//config/aideck_streamer.yaml
+[1.004s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+[1.004s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//urdf
+[1.004s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly.stl
+[1.004s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly_with_props.dae
+[1.004s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie//urdf/crazyflie_description.urdf
+[1.004s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[1.004s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[1.005s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[1.005s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[1.005s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/environment/path.sh
+[1.005s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+[1.005s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/local_setup.bash
+[1.005s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/local_setup.sh
+[1.005s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+[1.006s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+[1.006s] -- Installing: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.dsv
+[1.009s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[1.014s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[1.014s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[1.014s] -- Up-to-date: /home/gowtham/crazyflie_ws/install/crazyflie/share/crazyflie/package.xml
+[1.014s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/swarm_navigation:/home/gowtham/crazyflie_ws/install/swarm_guidance:/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/central_swarm_control:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie

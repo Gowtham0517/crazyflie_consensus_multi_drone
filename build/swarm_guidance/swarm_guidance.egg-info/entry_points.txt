@@ -1,0 +1,3 @@
+[console_scripts]
+guidance_node = swarm_guidance.guidance_node:main
+

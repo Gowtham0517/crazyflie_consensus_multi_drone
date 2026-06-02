@@ -1,0 +1,55 @@
+fileversion: 3
+
+robots:
+  cf1:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E731
+    initial_position: [0.5, 0.0, 0.0]
+    type: cf21
+  
+#  cf2:
+#   enabled: true
+# initial_position: [0.0, 0.0, 0.0]
+#    type: cf21
+#
+#  cf3:
+#    enabled: true
+#    uri: radio://0/80/2M/E7E7E7E733
+#    initial_position: [-0.5, 0.0, 0.0]
+#    type: cf21
+
+robot_types:
+  cf21:
+    motion_capture:
+      tracking: "librigidbodytracker"
+      marker: default_single_marker
+      dynamics: default
+    big_quad: false
+    battery:
+      voltage_warning: 3.8
+      voltage_critical: 3.5
+
+all:
+  firmware_logging:
+    enabled: true
+    default_topics:
+      pose:
+        frequency: 50
+      status:
+        frequency: 1
+
+  firmware_params:
+    commander:
+      enHighLevel: 1
+    stabilizer:
+      estimator: 2
+      controller: 2
+    locSrv:
+      extPosStdDev: 1e-3
+      extQuatStdDev: 0.5e-1
+
+  reference_frame: "world"
+  
+  broadcasts:
+    num_repeats: 15
+    delay_between_repeats_ms: 1

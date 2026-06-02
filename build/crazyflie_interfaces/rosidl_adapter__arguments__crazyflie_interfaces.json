@@ -1,0 +1,27 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "non_idl_tuples": [
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/ConnectionStatistics.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/ConnectionStatisticsArray.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/FullState.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogDataGeneric.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/Hover.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogBlock.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/Position.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/Status.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/TrajectoryPolynomialPiece.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:msg/VelocityWorld.msg",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/GoTo.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/Land.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/NotifySetpointsStop.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/SetGroupMask.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/StartTrajectory.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/Stop.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/Takeoff.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/UpdateParams.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/UploadTrajectory.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/RemoveLogging.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/AddLogging.srv",
+    "/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces:srv/Arm.srv"
+  ]
+}

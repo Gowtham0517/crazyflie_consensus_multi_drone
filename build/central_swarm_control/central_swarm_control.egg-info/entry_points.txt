@@ -1,0 +1,3 @@
+[console_scripts]
+control_node = central_swarm_control.control_node:main
+
