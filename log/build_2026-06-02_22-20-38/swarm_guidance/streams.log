@@ -1,0 +1,21 @@
+[2.461s] Invoking command in '/home/gowtham/crazyflie_ws/src/swarm_guidance': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_guidance build --build-base /home/gowtham/crazyflie_ws/build/swarm_guidance/build install --record /home/gowtham/crazyflie_ws/build/swarm_guidance/install.log --single-version-externally-managed install_data
+[3.085s] running egg_info
+[3.087s] writing ../../build/swarm_guidance/swarm_guidance.egg-info/PKG-INFO
+[3.088s] writing dependency_links to ../../build/swarm_guidance/swarm_guidance.egg-info/dependency_links.txt
+[3.090s] writing entry points to ../../build/swarm_guidance/swarm_guidance.egg-info/entry_points.txt
+[3.090s] writing requirements to ../../build/swarm_guidance/swarm_guidance.egg-info/requires.txt
+[3.091s] writing top-level names to ../../build/swarm_guidance/swarm_guidance.egg-info/top_level.txt
+[3.094s] reading manifest file '../../build/swarm_guidance/swarm_guidance.egg-info/SOURCES.txt'
+[3.095s] writing manifest file '../../build/swarm_guidance/swarm_guidance.egg-info/SOURCES.txt'
+[3.095s] running build
+[3.095s] running build_py
+[3.096s] running install
+[3.099s] running install_lib
+[3.100s] running install_data
+[3.100s] running install_egg_info
+[3.104s] removing '/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages/swarm_guidance-0.0.0-py3.10.egg-info' (and everything under it)
+[3.105s] Copying ../../build/swarm_guidance/swarm_guidance.egg-info to /home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages/swarm_guidance-0.0.0-py3.10.egg-info
+[3.110s] running install_scripts
+[3.159s] Installing guidance_node script to /home/gowtham/crazyflie_ws/install/swarm_guidance/lib/swarm_guidance
+[3.159s] writing list of installed files to '/home/gowtham/crazyflie_ws/build/swarm_guidance/install.log'
+[3.265s] Invoked command in '/home/gowtham/crazyflie_ws/src/swarm_guidance' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/swarm_guidance build --build-base /home/gowtham/crazyflie_ws/build/swarm_guidance/build install --record /home/gowtham/crazyflie_ws/build/swarm_guidance/install.log --single-version-externally-managed install_data

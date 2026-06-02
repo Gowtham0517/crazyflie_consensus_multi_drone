@@ -20,7 +20,7 @@ def generate_launch_description():
         parameters=[crazyflies_dict]
     )
 
-    # UPDATED: Now points to the new 'control_node'
+# UPDATED: Now points to the new 'control_node'
 #    central_controller = Node(
 #        package='central_swarm_control',
 #        executable='control_node',
