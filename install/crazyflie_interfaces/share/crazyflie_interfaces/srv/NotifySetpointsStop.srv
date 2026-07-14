@@ -1,3 +1,1 @@
-uint8 group_mask
-uint32 remain_valid_millisecs
----
+/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces/srv/NotifySetpointsStop.srv

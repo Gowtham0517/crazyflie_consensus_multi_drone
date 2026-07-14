@@ -1,0 +1,17 @@
+[2.313s] Invoking command in '/home/gowtham/crazyflie_ws/build/central_swarm_control': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/central_swarm_control/build --no-deps symlink_data
+[2.894s] running develop
+[3.301s] running egg_info
+[3.302s] writing central_swarm_control.egg-info/PKG-INFO
+[3.302s] writing dependency_links to central_swarm_control.egg-info/dependency_links.txt
+[3.302s] writing entry points to central_swarm_control.egg-info/entry_points.txt
+[3.303s] writing requirements to central_swarm_control.egg-info/requires.txt
+[3.303s] writing top-level names to central_swarm_control.egg-info/top_level.txt
+[3.307s] reading manifest file 'central_swarm_control.egg-info/SOURCES.txt'
+[3.308s] writing manifest file 'central_swarm_control.egg-info/SOURCES.txt'
+[3.312s] running build_ext
+[3.312s] Creating /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central-swarm-control.egg-link (link to .)
+[3.313s] Installing control_node script to /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/central_swarm_control
+[3.314s] 
+[3.314s] Installed /home/gowtham/crazyflie_ws/build/central_swarm_control
+[3.314s] running symlink_data
+[3.372s] Invoked command in '/home/gowtham/crazyflie_ws/build/central_swarm_control' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/central_swarm_control/build --no-deps symlink_data

@@ -1,5 +1,1 @@
-uint8 group_mask
-bool relative
-geometry_msgs/Point goal
-float32 yaw # deg
-builtin_interfaces/Duration duration
+/home/gowtham/crazyflie_ws/build/crazyflie_interfaces/rosidl_cmake/srv/GoTo_Request.msg

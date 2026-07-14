@@ -1,0 +1,16 @@
+[2.440s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_py': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/crazyflie_py/build --no-deps symlink_data
+[3.642s] running develop
+[4.897s] running egg_info
+[4.899s] writing crazyflie_py.egg-info/PKG-INFO
+[4.901s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[4.902s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[4.904s] writing requirements to crazyflie_py.egg-info/requires.txt
+[4.904s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[4.910s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[4.913s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[4.918s] running build_ext
+[4.919s] Creating /home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+[4.924s] 
+[4.924s] Installed /home/gowtham/crazyflie_ws/build/crazyflie_py
+[4.924s] running symlink_data
+[5.036s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/crazyflie_py/build --no-deps symlink_data

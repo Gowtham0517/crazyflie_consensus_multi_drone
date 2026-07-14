@@ -1,0 +1,101 @@
+[0.067s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_examples -- -j4 -l4
+[0.199s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[0.209s] Built target ament_cmake_python_symlink_crazyflie_examples
+[0.794s] running install_scripts
+[0.798s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.798s]   warnings.warn(
+[0.842s] running egg_info
+[0.842s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.843s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.843s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.843s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.843s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.845s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.847s] Installing arming script to scripts
+[0.849s] Installing cmd_full_state script to scripts
+[0.849s] Installing figure8 script to scripts
+[0.849s] Installing goto_unicast script to scripts
+[0.851s] Installing group_mask script to scripts
+[0.852s] Installing hello_world script to scripts
+[0.852s] Installing infinite_flight script to scripts
+[0.854s] Installing multi_trajectory script to scripts
+[0.854s] Installing nice_hover script to scripts
+[0.854s] Installing set_param script to scripts
+[0.854s] Installing swap script to scripts
+[0.890s] running egg_info
+[0.891s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.891s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.892s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.892s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.897s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.903s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.953s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[0.967s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[0.989s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_examples -- -j4 -l4
+[0.991s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_examples
+[1.003s] -- Install configuration: ""
+[1.004s] -- Execute custom install script
+[1.004s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[1.004s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[1.004s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/PKG-INFO
+[1.005s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/SOURCES.txt
+[1.005s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/dependency_links.txt
+[1.005s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/entry_points.txt
+[1.005s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-1.0.3-py3.10.egg-info/top_level.txt
+[1.006s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//arming
+[1.006s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[1.006s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[1.006s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//goto_unicast
+[1.007s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//group_mask
+[1.007s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[1.007s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//infinite_flight
+[1.007s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[1.008s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[1.008s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[1.008s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/lib/crazyflie_examples//swap
+[1.009s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py
+[1.009s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/arming.py
+[1.009s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py
+[1.010s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/figure8.csv
+[1.013s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[1.013s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[1.013s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/goto_unicast.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/group_mask.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/infinite_flight.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/swap.py
+[1.014s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[1.015s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[1.015s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//config/slam_params.yaml
+[1.016s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[1.016s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[1.016s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[1.016s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[1.016s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[1.016s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//launch/launch.py
+[1.017s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[1.017s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[1.017s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_simple_mapper_launch.py
+[1.017s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[1.017s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[1.017s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[1.019s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[1.019s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[1.019s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[1.020s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[1.020s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[1.020s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[1.020s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[1.020s] -- Symlinking: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[1.037s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[1.037s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[1.037s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[1.037s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[1.107s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples'...
+[1.107s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data'...
+[1.107s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory'...
+[1.120s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_py:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_examples

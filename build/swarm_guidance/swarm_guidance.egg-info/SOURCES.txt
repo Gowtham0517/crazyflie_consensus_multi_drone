@@ -11,6 +11,10 @@ setup.py
 resource/swarm_guidance
 swarm_guidance/__init__.py
 swarm_guidance/guidance_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+swarm_guidance.egg-info/PKG-INFO
+swarm_guidance.egg-info/SOURCES.txt
+swarm_guidance.egg-info/dependency_links.txt
+swarm_guidance.egg-info/entry_points.txt
+swarm_guidance.egg-info/requires.txt
+swarm_guidance.egg-info/top_level.txt
+swarm_guidance.egg-info/zip-safe

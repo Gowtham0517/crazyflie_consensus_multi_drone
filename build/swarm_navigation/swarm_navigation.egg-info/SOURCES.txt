@@ -11,6 +11,10 @@ setup.py
 resource/swarm_navigation
 swarm_navigation/__init__.py
 swarm_navigation/navigation_node.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+swarm_navigation.egg-info/PKG-INFO
+swarm_navigation.egg-info/SOURCES.txt
+swarm_navigation.egg-info/dependency_links.txt
+swarm_navigation.egg-info/entry_points.txt
+swarm_navigation.egg-info/requires.txt
+swarm_navigation.egg-info/top_level.txt
+swarm_navigation.egg-info/zip-safe

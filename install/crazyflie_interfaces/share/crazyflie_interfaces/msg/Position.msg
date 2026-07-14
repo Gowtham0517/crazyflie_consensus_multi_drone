@@ -1,5 +1,1 @@
-std_msgs/Header header
-float32 x
-float32 y
-float32 z
-float32 yaw
+/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces/msg/Position.msg

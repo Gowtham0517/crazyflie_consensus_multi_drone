@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing central_swarm_control.egg-info/PKG-INFO
+writing dependency_links to central_swarm_control.egg-info/dependency_links.txt
+writing entry points to central_swarm_control.egg-info/entry_points.txt
+writing requirements to central_swarm_control.egg-info/requires.txt
+writing top-level names to central_swarm_control.egg-info/top_level.txt
+reading manifest file 'central_swarm_control.egg-info/SOURCES.txt'
+writing manifest file 'central_swarm_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central-swarm-control.egg-link (link to .)
+Installing control_node script to /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/central_swarm_control
+
+Installed /home/gowtham/crazyflie_ws/build/central_swarm_control
+running symlink_data

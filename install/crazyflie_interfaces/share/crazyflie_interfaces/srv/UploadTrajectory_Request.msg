@@ -1,3 +1,1 @@
-uint8 trajectory_id
-uint32 piece_offset
-TrajectoryPolynomialPiece[] pieces
+/home/gowtham/crazyflie_ws/build/crazyflie_interfaces/rosidl_cmake/srv/UploadTrajectory_Request.msg

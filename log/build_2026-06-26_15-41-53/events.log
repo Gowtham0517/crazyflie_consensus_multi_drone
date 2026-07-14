@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000688] (-) JobUnselected: {'identifier': 'crazyflie'}
+[0.001060] (-) JobUnselected: {'identifier': 'crazyflie_examples'}
+[0.001135] (-) JobUnselected: {'identifier': 'crazyflie_interfaces'}
+[0.001255] (-) JobUnselected: {'identifier': 'crazyflie_py'}
+[0.001286] (-) JobUnselected: {'identifier': 'crazyflie_sim'}
+[0.001311] (-) JobUnselected: {'identifier': 'swarm_navigation'}
+[0.001339] (swarm_guidance) JobQueued: {'identifier': 'swarm_guidance', 'dependencies': OrderedDict()}
+[0.001367] (central_swarm_control) JobQueued: {'identifier': 'central_swarm_control', 'dependencies': OrderedDict([('crazyflie_interfaces', '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces')])}
+[0.001397] (swarm_guidance) JobStarted: {'identifier': 'swarm_guidance'}
+[0.011813] (central_swarm_control) JobStarted: {'identifier': 'central_swarm_control'}
+[0.099600] (-) TimerEvent: {}
+[0.200013] (-) TimerEvent: {}
+[0.300730] (-) TimerEvent: {}
+[0.401154] (-) TimerEvent: {}
+[0.501926] (-) TimerEvent: {}
+[0.602413] (-) TimerEvent: {}
+[0.702881] (-) TimerEvent: {}
+[0.803277] (-) TimerEvent: {}
+[0.903610] (-) TimerEvent: {}
+[1.003998] (-) TimerEvent: {}
+[1.104373] (-) TimerEvent: {}
+[1.204744] (-) TimerEvent: {}
+[1.305904] (-) TimerEvent: {}
+[1.406576] (-) TimerEvent: {}
+[1.506933] (-) TimerEvent: {}
+[1.607270] (-) TimerEvent: {}
+[1.707629] (-) TimerEvent: {}
+[1.808001] (-) TimerEvent: {}
+[1.909380] (-) TimerEvent: {}
+[2.010050] (-) TimerEvent: {}
+[2.110671] (-) TimerEvent: {}
+[2.152578] (swarm_guidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/gowtham/crazyflie_ws/build/swarm_guidance/build', '--no-deps', 'symlink_data'], 'cwd': '/home/gowtham/crazyflie_ws/build/swarm_guidance', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/gowtham', 'LANGUAGE': 'en_IN:en', 'USER': 'gowtham', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/gowtham/swarm_ws/install/crazyflie_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gowtham', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/gowtham/crazyflie_ws', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-aff32cd6-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '805', 'SYSTEMD_EXEC_PID': '932', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4324', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gowtham/swarm_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gowtham', 'JOURNAL_STREAM': '8:11833', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gowtham', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'ANTIGRAVITY_EDITOR_APP_ROOT': '/usr/share/antigravity/resources/app', 'PATH': '/home/gowtham/.local/bin:/home/gowtham/.local/bin:/home/gowtham/.local/bin:/opt/ros/humble/bin:/home/gowtham/.local/bin:/home/gowtham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/gowtham/.local/bin', 'SESSION_MANAGER': 'local/gowtham:@/tmp/.ICE-unix/901,unix/gowtham:/tmp/.ICE-unix/901', 'INVOCATION_ID': '91f4980b919e450898ee155655fbd6e8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1Q17Q3', 'LS_COLORS': '', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'ANTIGRAVITY_TRAJECTORY_ID': 'ba167b89-4c84-4d48-9596-82c203941048', 'PWD': '/home/gowtham/crazyflie_ws/build/swarm_guidance', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/gowtham/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:/home/gowtham/crazyflie-firmware/build:/home/gowtham/crazyflie-firmware/build:/home/gowtham/swarm_ws/install/guidance_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/control_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/consensus_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces', 'VSCODE_PID': '4324'}, 'shell': False}
+[2.210776] (-) TimerEvent: {}
+[2.311143] (-) TimerEvent: {}
+[2.323883] (central_swarm_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/gowtham/crazyflie_ws/build/central_swarm_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/gowtham/crazyflie_ws/build/central_swarm_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/gowtham', 'LANGUAGE': 'en_IN:en', 'USER': 'gowtham', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-gb","osLocale":"en-in","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-gb","availableLanguages":{}}', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:/home/gowtham/swarm_ws/install/crazyflie_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gowtham', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/gowtham/crazyflie_ws', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-aff32cd6-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '805', 'SYSTEMD_EXEC_PID': '932', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4324', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gowtham/swarm_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gowtham', 'JOURNAL_STREAM': '8:11833', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gowtham', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'ANTIGRAVITY_EDITOR_APP_ROOT': '/usr/share/antigravity/resources/app', 'PATH': '/home/gowtham/.local/bin:/home/gowtham/.local/bin:/home/gowtham/.local/bin:/opt/ros/humble/bin:/home/gowtham/.local/bin:/home/gowtham/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/gowtham/.local/bin', 'SESSION_MANAGER': 'local/gowtham:@/tmp/.ICE-unix/901,unix/gowtham:/tmp/.ICE-unix/901', 'INVOCATION_ID': '91f4980b919e450898ee155655fbd6e8', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1Q17Q3', 'LS_COLORS': '', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'ANTIGRAVITY_TRAJECTORY_ID': 'ba167b89-4c84-4d48-9596-82c203941048', 'PWD': '/home/gowtham/crazyflie_ws/build/central_swarm_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/gowtham/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/crazyflie-firmware/build:/home/gowtham/crazyflie-firmware/build:/home/gowtham/swarm_ws/install/guidance_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_examples/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:/home/gowtham/swarm_ws/install/control_layer/lib/python3.10/site-packages:/home/gowtham/swarm_ws/install/consensus_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces', 'VSCODE_PID': '4324'}, 'shell': False}
+[2.411241] (-) TimerEvent: {}
+[2.511660] (-) TimerEvent: {}
+[2.612340] (-) TimerEvent: {}
+[2.685655] (swarm_guidance) StdoutLine: {'line': b'running develop\n'}
+[2.712460] (-) TimerEvent: {}
+[2.814173] (-) TimerEvent: {}
+[2.906147] (central_swarm_control) StdoutLine: {'line': b'running develop\n'}
+[2.914282] (-) TimerEvent: {}
+[3.014853] (-) TimerEvent: {}
+[3.117184] (-) TimerEvent: {}
+[3.154208] (swarm_guidance) StdoutLine: {'line': b'running egg_info\n'}
+[3.155055] (swarm_guidance) StdoutLine: {'line': b'writing swarm_guidance.egg-info/PKG-INFO\n'}
+[3.155764] (swarm_guidance) StdoutLine: {'line': b'writing dependency_links to swarm_guidance.egg-info/dependency_links.txt\n'}
+[3.156539] (swarm_guidance) StdoutLine: {'line': b'writing entry points to swarm_guidance.egg-info/entry_points.txt\n'}
+[3.156707] (swarm_guidance) StdoutLine: {'line': b'writing requirements to swarm_guidance.egg-info/requires.txt\n'}
+[3.156862] (swarm_guidance) StdoutLine: {'line': b'writing top-level names to swarm_guidance.egg-info/top_level.txt\n'}
+[3.160647] (swarm_guidance) StdoutLine: {'line': b"reading manifest file 'swarm_guidance.egg-info/SOURCES.txt'\n"}
+[3.161541] (swarm_guidance) StdoutLine: {'line': b"writing manifest file 'swarm_guidance.egg-info/SOURCES.txt'\n"}
+[3.162875] (swarm_guidance) StdoutLine: {'line': b'running build_ext\n'}
+[3.163894] (swarm_guidance) StdoutLine: {'line': b'Creating /home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages/swarm-guidance.egg-link (link to .)\n'}
+[3.165222] (swarm_guidance) StdoutLine: {'line': b'Installing guidance_node script to /home/gowtham/crazyflie_ws/install/swarm_guidance/lib/swarm_guidance\n'}
+[3.165897] (swarm_guidance) StdoutLine: {'line': b'\n'}
+[3.166132] (swarm_guidance) StdoutLine: {'line': b'Installed /home/gowtham/crazyflie_ws/build/swarm_guidance\n'}
+[3.166299] (swarm_guidance) StdoutLine: {'line': b'running symlink_data\n'}
+[3.217397] (-) TimerEvent: {}
+[3.231975] (swarm_guidance) CommandEnded: {'returncode': 0}
+[3.267108] (swarm_guidance) JobEnded: {'identifier': 'swarm_guidance', 'rc': 0}
+[3.313288] (central_swarm_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.314134] (central_swarm_control) StdoutLine: {'line': b'writing central_swarm_control.egg-info/PKG-INFO\n'}
+[3.314372] (central_swarm_control) StdoutLine: {'line': b'writing dependency_links to central_swarm_control.egg-info/dependency_links.txt\n'}
+[3.314604] (central_swarm_control) StdoutLine: {'line': b'writing entry points to central_swarm_control.egg-info/entry_points.txt\n'}
+[3.314807] (central_swarm_control) StdoutLine: {'line': b'writing requirements to central_swarm_control.egg-info/requires.txt\n'}
+[3.314968] (central_swarm_control) StdoutLine: {'line': b'writing top-level names to central_swarm_control.egg-info/top_level.txt\n'}
+[3.317538] (-) TimerEvent: {}
+[3.319135] (central_swarm_control) StdoutLine: {'line': b"reading manifest file 'central_swarm_control.egg-info/SOURCES.txt'\n"}
+[3.320447] (central_swarm_control) StdoutLine: {'line': b"writing manifest file 'central_swarm_control.egg-info/SOURCES.txt'\n"}
+[3.323481] (central_swarm_control) StdoutLine: {'line': b'running build_ext\n'}
+[3.324372] (central_swarm_control) StdoutLine: {'line': b'Creating /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central-swarm-control.egg-link (link to .)\n'}
+[3.325296] (central_swarm_control) StdoutLine: {'line': b'Installing control_node script to /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/central_swarm_control\n'}
+[3.326068] (central_swarm_control) StdoutLine: {'line': b'\n'}
+[3.326367] (central_swarm_control) StdoutLine: {'line': b'Installed /home/gowtham/crazyflie_ws/build/central_swarm_control\n'}
+[3.326512] (central_swarm_control) StdoutLine: {'line': b'running symlink_data\n'}
+[3.383546] (central_swarm_control) CommandEnded: {'returncode': 0}
+[3.395233] (central_swarm_control) JobEnded: {'identifier': 'central_swarm_control', 'rc': 0}
+[3.396138] (-) EventReactorShutdown: {}

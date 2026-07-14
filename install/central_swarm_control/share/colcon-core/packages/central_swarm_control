@@ -1,1 +1,1 @@
-geometry_msgs:nav_msgs:rclpy
+crazyflie_interfaces:geometry_msgs:nav_msgs:rcl_interfaces:rclpy:std_msgs

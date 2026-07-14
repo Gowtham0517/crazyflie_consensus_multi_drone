@@ -1,0 +1,34 @@
+running develop
+Removing /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central-swarm-control.egg-link (link to .)
+running egg_info
+writing ../../build/central_swarm_control/central_swarm_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/central_swarm_control/central_swarm_control.egg-info/dependency_links.txt
+writing entry points to ../../build/central_swarm_control/central_swarm_control.egg-info/entry_points.txt
+writing requirements to ../../build/central_swarm_control/central_swarm_control.egg-info/requires.txt
+writing top-level names to ../../build/central_swarm_control/central_swarm_control.egg-info/top_level.txt
+reading manifest file '../../build/central_swarm_control/central_swarm_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/central_swarm_control/central_swarm_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gowtham/crazyflie_ws/build/central_swarm_control/build
+creating /home/gowtham/crazyflie_ws/build/central_swarm_control/build/lib
+creating /home/gowtham/crazyflie_ws/build/central_swarm_control/build/lib/central_swarm_control
+copying central_swarm_control/__init__.py -> /home/gowtham/crazyflie_ws/build/central_swarm_control/build/lib/central_swarm_control
+copying central_swarm_control/control_node.py -> /home/gowtham/crazyflie_ws/build/central_swarm_control/build/lib/central_swarm_control
+running install
+running install_lib
+creating /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control
+copying /home/gowtham/crazyflie_ws/build/central_swarm_control/build/lib/central_swarm_control/__init__.py -> /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control
+copying /home/gowtham/crazyflie_ws/build/central_swarm_control/build/lib/central_swarm_control/control_node.py -> /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control
+byte-compiling /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control/control_node.py to control_node.cpython-310.pyc
+running install_data
+copying resource/central_swarm_control -> /home/gowtham/crazyflie_ws/install/central_swarm_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control
+copying launch/physical_swarm.launch.py -> /home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/launch
+copying config/crazyflies.yaml -> /home/gowtham/crazyflie_ws/install/central_swarm_control/share/central_swarm_control/config
+running install_egg_info
+Copying ../../build/central_swarm_control/central_swarm_control.egg-info to /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central_swarm_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_node script to /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/central_swarm_control
+writing list of installed files to '/home/gowtham/crazyflie_ws/build/central_swarm_control/install.log'

@@ -1,0 +1,13 @@
+experiment_id: I3_incipient_fast
+run_number: 1
+fault_type: incipient
+fault_motor: m1
+fault_magnitude: 0.7
+fault_rate: 0.1
+fault_step_interval: 5.0
+fault_min_health: 0.5
+fault_on_time: 10.0
+fault_off_time: 10.0
+fault_start_delay: 10.0
+track_duration: 60.0
+timestamp: 20260626_011540

@@ -1,0 +1,17 @@
+[3.134s] Invoking command in '/home/gowtham/crazyflie_ws/build/central_swarm_control': PYTHONPATH=/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/central_swarm_control/build --no-deps symlink_data
+[4.331s] running develop
+[5.137s] running egg_info
+[5.139s] writing central_swarm_control.egg-info/PKG-INFO
+[5.147s] writing dependency_links to central_swarm_control.egg-info/dependency_links.txt
+[5.148s] writing entry points to central_swarm_control.egg-info/entry_points.txt
+[5.150s] writing requirements to central_swarm_control.egg-info/requires.txt
+[5.150s] writing top-level names to central_swarm_control.egg-info/top_level.txt
+[5.151s] reading manifest file 'central_swarm_control.egg-info/SOURCES.txt'
+[5.155s] writing manifest file 'central_swarm_control.egg-info/SOURCES.txt'
+[5.164s] running build_ext
+[5.167s] Creating /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages/central-swarm-control.egg-link (link to .)
+[5.170s] Installing control_node script to /home/gowtham/crazyflie_ws/install/central_swarm_control/lib/central_swarm_control
+[5.174s] 
+[5.176s] Installed /home/gowtham/crazyflie_ws/build/central_swarm_control
+[5.177s] running symlink_data
+[5.278s] Invoked command in '/home/gowtham/crazyflie_ws/build/central_swarm_control' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/central_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/central_swarm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/central_swarm_control/build --no-deps symlink_data

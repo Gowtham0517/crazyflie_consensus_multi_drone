@@ -1,0 +1,17 @@
+[3.146s] Invoking command in '/home/gowtham/crazyflie_ws/build/swarm_guidance': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/swarm_guidance/build --no-deps symlink_data
+[4.460s] running develop
+[5.733s] running egg_info
+[5.734s] writing swarm_guidance.egg-info/PKG-INFO
+[5.735s] writing dependency_links to swarm_guidance.egg-info/dependency_links.txt
+[5.735s] writing entry points to swarm_guidance.egg-info/entry_points.txt
+[5.735s] writing requirements to swarm_guidance.egg-info/requires.txt
+[5.736s] writing top-level names to swarm_guidance.egg-info/top_level.txt
+[5.742s] reading manifest file 'swarm_guidance.egg-info/SOURCES.txt'
+[5.754s] writing manifest file 'swarm_guidance.egg-info/SOURCES.txt'
+[5.759s] running build_ext
+[5.760s] Creating /home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages/swarm-guidance.egg-link (link to .)
+[5.768s] Installing guidance_node script to /home/gowtham/crazyflie_ws/install/swarm_guidance/lib/swarm_guidance
+[5.769s] 
+[5.769s] Installed /home/gowtham/crazyflie_ws/build/swarm_guidance
+[5.769s] running symlink_data
+[5.884s] Invoked command in '/home/gowtham/crazyflie_ws/build/swarm_guidance' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/swarm_guidance/build --no-deps symlink_data

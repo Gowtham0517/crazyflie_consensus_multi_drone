@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing swarm_navigation.egg-info/PKG-INFO
+writing dependency_links to swarm_navigation.egg-info/dependency_links.txt
+writing entry points to swarm_navigation.egg-info/entry_points.txt
+writing requirements to swarm_navigation.egg-info/requires.txt
+writing top-level names to swarm_navigation.egg-info/top_level.txt
+reading manifest file 'swarm_navigation.egg-info/SOURCES.txt'
+writing manifest file 'swarm_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm-navigation.egg-link (link to .)
+Installing navigation_node script to /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/swarm_navigation
+
+Installed /home/gowtham/crazyflie_ws/build/swarm_navigation
+running symlink_data

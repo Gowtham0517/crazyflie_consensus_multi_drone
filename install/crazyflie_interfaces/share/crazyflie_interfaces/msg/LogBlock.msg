@@ -1,3 +1,1 @@
-string topic_name
-int16 frequency
-string[] variables
+/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces/msg/LogBlock.msg

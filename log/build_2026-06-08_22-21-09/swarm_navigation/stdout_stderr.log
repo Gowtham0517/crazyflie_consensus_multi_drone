@@ -1,0 +1,32 @@
+running develop
+Removing /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm-navigation.egg-link (link to .)
+running egg_info
+writing ../../build/swarm_navigation/swarm_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/swarm_navigation/swarm_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/swarm_navigation/swarm_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/swarm_navigation/swarm_navigation.egg-info/requires.txt
+writing top-level names to ../../build/swarm_navigation/swarm_navigation.egg-info/top_level.txt
+reading manifest file '../../build/swarm_navigation/swarm_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/swarm_navigation/swarm_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gowtham/crazyflie_ws/build/swarm_navigation/build
+creating /home/gowtham/crazyflie_ws/build/swarm_navigation/build/lib
+creating /home/gowtham/crazyflie_ws/build/swarm_navigation/build/lib/swarm_navigation
+copying swarm_navigation/__init__.py -> /home/gowtham/crazyflie_ws/build/swarm_navigation/build/lib/swarm_navigation
+copying swarm_navigation/navigation_node.py -> /home/gowtham/crazyflie_ws/build/swarm_navigation/build/lib/swarm_navigation
+running install
+running install_lib
+creating /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm_navigation
+copying /home/gowtham/crazyflie_ws/build/swarm_navigation/build/lib/swarm_navigation/__init__.py -> /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm_navigation
+copying /home/gowtham/crazyflie_ws/build/swarm_navigation/build/lib/swarm_navigation/navigation_node.py -> /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm_navigation
+byte-compiling /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm_navigation/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm_navigation/navigation_node.py to navigation_node.cpython-310.pyc
+running install_data
+copying resource/swarm_navigation -> /home/gowtham/crazyflie_ws/install/swarm_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation
+running install_egg_info
+Copying ../../build/swarm_navigation/swarm_navigation.egg-info to /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigation_node script to /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/swarm_navigation
+writing list of installed files to '/home/gowtham/crazyflie_ws/build/swarm_navigation/install.log'

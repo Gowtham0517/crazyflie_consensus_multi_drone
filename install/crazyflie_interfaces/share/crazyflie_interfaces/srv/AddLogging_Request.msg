@@ -1,3 +1,1 @@
-string topic_name
-int32 frequency
-string[] vars
+/home/gowtham/crazyflie_ws/build/crazyflie_interfaces/rosidl_cmake/srv/AddLogging_Request.msg

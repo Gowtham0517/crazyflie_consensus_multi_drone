@@ -1,1 +1,1 @@
-uint8 group_mask
+/home/gowtham/crazyflie_ws/build/crazyflie_interfaces/rosidl_cmake/srv/SetGroupMask_Request.msg

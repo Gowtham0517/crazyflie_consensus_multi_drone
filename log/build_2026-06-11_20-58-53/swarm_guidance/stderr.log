@@ -1,0 +1,5 @@
+  File "/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages/swarm_guidance/guidance_node.py", line 1
+    cat << 'EOF' > ~/crazyflie_ws/src/swarm_guidance/swarm_guidance/guidance_node.py
+                    ^
+SyntaxError: invalid syntax
+

@@ -1,4 +1,1 @@
-std_msgs/Header header
-geometry_msgs/Pose pose
-geometry_msgs/Twist twist
-geometry_msgs/Vector3 acc
+/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces/msg/FullState.msg

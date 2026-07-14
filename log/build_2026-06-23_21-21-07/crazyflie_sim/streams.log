@@ -1,0 +1,121 @@
+[0.745s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie_sim
+[0.792s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.318s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.687s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.980s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[2.981s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[2.981s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[2.981s]   using pip.
+[2.981s] Call Stack (most recent call first):
+[2.982s]   CMakeLists.txt:27 (ament_add_pytest_test)
+[2.984s] 
+[2.985s] [0m
+[4.591s] [33mCMake Warning at /opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:79 (message):
+[4.595s]   The Python module 'pytest' was not found, pytests cannot be run.  On Linux,
+[4.595s]   install the 'python3-pytest' package.  On other platforms, install 'pytest'
+[4.595s]   using pip.
+[4.595s] Call Stack (most recent call first):
+[4.595s]   CMakeLists.txt:27 (ament_add_pytest_test)
+[4.595s] 
+[4.596s] [0m
+[5.193s] -- Configuring done
+[5.235s] -- Generating done
+[5.266s] -- Build files have been written to: /home/gowtham/crazyflie_ws/build/crazyflie_sim
+[5.304s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/gowtham/crazyflie_ws/install/crazyflie_sim
+[5.307s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_sim -- -j4 -l4
+[5.622s] Built target ament_cmake_python_symlink_crazyflie_sim
+[5.633s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[6.603s] running install_scripts
+[6.610s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.611s]   warnings.warn(
+[6.615s] running egg_info
+[6.618s] writing crazyflie_sim.egg-info/PKG-INFO
+[6.621s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[6.622s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[6.624s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[6.634s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[6.636s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[6.690s] running egg_info
+[6.696s] writing crazyflie_sim.egg-info/PKG-INFO
+[6.696s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[6.696s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[6.696s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[6.701s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[6.703s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[6.709s] Installing crazyflie_server script to scripts
+[6.741s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[6.803s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[6.830s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gowtham/crazyflie_ws/build/crazyflie_sim -- -j4 -l4
+[6.834s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_sim
+[6.858s] -- Install configuration: ""
+[6.859s] -- Execute custom install script
+[6.859s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[6.859s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[6.863s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/PKG-INFO
+[6.863s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/SOURCES.txt
+[6.864s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/dependency_links.txt
+[6.864s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/entry_points.txt
+[6.864s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-1.0.3-py3.10.egg-info/top_level.txt
+[6.867s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[6.874s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py
+[6.874s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench/crazyflie2.yaml
+[6.875s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_G.pth
+[6.877s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_L.pth
+[6.878s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/phi_S.pth
+[6.879s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_L.pth
+[6.881s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2/rho_S.pth
+[6.881s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio/crazyflie2.urdf
+[6.883s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/dynobench.py
+[6.883s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/neuralswarm.py
+[6.886s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py
+[6.886s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py
+[6.888s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/pinocchio.py
+[6.890s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py
+[6.890s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py
+[6.892s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py
+[6.892s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/README.md
+[6.893s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py
+[6.896s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/README.md
+[6.896s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[6.898s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[6.899s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[6.900s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[6.901s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[6.902s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/env.jpg
+[6.906s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[6.907s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[6.907s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[6.907s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[6.907s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[6.907s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[6.907s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[6.912s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.obj
+[6.913s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py
+[6.913s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py
+[6.913s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py
+[6.913s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[6.913s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[6.914s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[6.916s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[6.917s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[6.917s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[6.918s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[6.918s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[6.919s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[6.919s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[6.920s] -- Symlinking: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[6.947s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[6.947s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[6.947s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[6.948s] -- Up-to-date symlink: /home/gowtham/crazyflie_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[7.026s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim'...
+[7.026s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend'...
+[7.026s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data'...
+[7.026s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/dynobench'...
+[7.027s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/neuralswarm2'...
+[7.027s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/data/pinocchio'...
+[7.027s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization'...
+[7.027s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data'...
+[7.027s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env'...
+[7.027s] Listing '/home/gowtham/crazyflie_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model'...
+[7.042s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces:/home/gowtham/swarm_ws/install/guidance_layer:/home/gowtham/swarm_ws/install/crazyflie_py:/home/gowtham/swarm_ws/install/control_layer:/home/gowtham/swarm_ws/install/consensus_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gowtham/crazyflie_ws/build/crazyflie_sim

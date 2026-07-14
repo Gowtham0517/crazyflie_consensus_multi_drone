@@ -1,2 +1,1 @@
-std_msgs/Header header
-ConnectionStatistics[] stats
+/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_interfaces/msg/ConnectionStatisticsArray.msg

@@ -1,1 +1,1 @@
-string topic_name
+/home/gowtham/crazyflie_ws/build/crazyflie_interfaces/rosidl_cmake/srv/RemoveLogging_Request.msg

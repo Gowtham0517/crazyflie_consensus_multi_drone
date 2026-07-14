@@ -1,2 +1,1 @@
-uint8 group_mask
-uint32 remain_valid_millisecs
+/home/gowtham/crazyflie_ws/build/crazyflie_interfaces/rosidl_cmake/srv/NotifySetpointsStop_Request.msg

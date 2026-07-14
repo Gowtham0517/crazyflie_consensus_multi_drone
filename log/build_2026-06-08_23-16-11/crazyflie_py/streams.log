@@ -1,0 +1,20 @@
+[2.117s] Invoking command in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_py': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/gowtham/crazyflie_ws/build/crazyflie_py/build install --record /home/gowtham/crazyflie_ws/build/crazyflie_py/install.log --single-version-externally-managed install_data
+[3.335s] running egg_info
+[3.337s] writing ../../../build/crazyflie_py/crazyflie_py.egg-info/PKG-INFO
+[3.337s] writing dependency_links to ../../../build/crazyflie_py/crazyflie_py.egg-info/dependency_links.txt
+[3.337s] writing entry points to ../../../build/crazyflie_py/crazyflie_py.egg-info/entry_points.txt
+[3.338s] writing requirements to ../../../build/crazyflie_py/crazyflie_py.egg-info/requires.txt
+[3.339s] writing top-level names to ../../../build/crazyflie_py/crazyflie_py.egg-info/top_level.txt
+[3.342s] reading manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[3.344s] writing manifest file '../../../build/crazyflie_py/crazyflie_py.egg-info/SOURCES.txt'
+[3.344s] running build
+[3.344s] running build_py
+[3.346s] running install
+[3.347s] running install_lib
+[3.350s] running install_data
+[3.350s] running install_egg_info
+[3.354s] removing '/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info' (and everything under it)
+[3.354s] Copying ../../../build/crazyflie_py/crazyflie_py.egg-info to /home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie_py-1.0.3-py3.10.egg-info
+[3.357s] running install_scripts
+[3.395s] writing list of installed files to '/home/gowtham/crazyflie_ws/build/crazyflie_py/install.log'
+[3.453s] Invoked command in '/home/gowtham/crazyflie_ws/src/crazyswarm2/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/crazyflie_py build --build-base /home/gowtham/crazyflie_ws/build/crazyflie_py/build install --record /home/gowtham/crazyflie_ws/build/crazyflie_py/install.log --single-version-externally-managed install_data

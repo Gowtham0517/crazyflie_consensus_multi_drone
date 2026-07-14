@@ -1,0 +1,19 @@
+[2.371s] Invoking command in '/home/gowtham/crazyflie_ws/build/swarm_guidance': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/swarm_guidance/build --no-deps symlink_data --force
+[3.110s] running develop
+[3.702s] running egg_info
+[3.702s] writing swarm_guidance.egg-info/PKG-INFO
+[3.703s] writing dependency_links to swarm_guidance.egg-info/dependency_links.txt
+[3.704s] writing entry points to swarm_guidance.egg-info/entry_points.txt
+[3.704s] writing requirements to swarm_guidance.egg-info/requires.txt
+[3.704s] writing top-level names to swarm_guidance.egg-info/top_level.txt
+[3.708s] reading manifest file 'swarm_guidance.egg-info/SOURCES.txt'
+[3.710s] writing manifest file 'swarm_guidance.egg-info/SOURCES.txt'
+[3.712s] running build_ext
+[3.713s] Creating /home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages/swarm-guidance.egg-link (link to .)
+[3.713s] Installing guidance_node script to /home/gowtham/crazyflie_ws/install/swarm_guidance/lib/swarm_guidance
+[3.714s] 
+[3.715s] Installed /home/gowtham/crazyflie_ws/build/swarm_guidance
+[3.715s] running symlink_data
+[3.715s] symbolically linking /home/gowtham/crazyflie_ws/build/swarm_guidance/resource/swarm_guidance -> /home/gowtham/crazyflie_ws/install/swarm_guidance/share/ament_index/resource_index/packages
+[3.716s] symbolically linking /home/gowtham/crazyflie_ws/build/swarm_guidance/package.xml -> /home/gowtham/crazyflie_ws/install/swarm_guidance/share/swarm_guidance
+[3.778s] Invoked command in '/home/gowtham/crazyflie_ws/build/swarm_guidance' returned '0': PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_guidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_guidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/swarm_guidance/build --no-deps symlink_data --force

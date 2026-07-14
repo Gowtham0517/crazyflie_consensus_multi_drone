@@ -1,5 +1,1 @@
-uint8 group_mask
-uint8 trajectory_id
-float32 timescale
-bool reversed
-bool relative
+/home/gowtham/crazyflie_ws/build/crazyflie_interfaces/rosidl_cmake/srv/StartTrajectory_Request.msg

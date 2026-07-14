@@ -1,0 +1,19 @@
+[1.868s] Invoking command in '/home/gowtham/crazyflie_ws/build/swarm_navigation': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/swarm_navigation/build --no-deps symlink_data --force
+[2.313s] running develop
+[2.608s] running egg_info
+[2.609s] writing swarm_navigation.egg-info/PKG-INFO
+[2.609s] writing dependency_links to swarm_navigation.egg-info/dependency_links.txt
+[2.609s] writing entry points to swarm_navigation.egg-info/entry_points.txt
+[2.609s] writing requirements to swarm_navigation.egg-info/requires.txt
+[2.610s] writing top-level names to swarm_navigation.egg-info/top_level.txt
+[2.612s] reading manifest file 'swarm_navigation.egg-info/SOURCES.txt'
+[2.613s] writing manifest file 'swarm_navigation.egg-info/SOURCES.txt'
+[2.615s] running build_ext
+[2.616s] Creating /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages/swarm-navigation.egg-link (link to .)
+[2.617s] Installing navigation_node script to /home/gowtham/crazyflie_ws/install/swarm_navigation/lib/swarm_navigation
+[2.617s] 
+[2.617s] Installed /home/gowtham/crazyflie_ws/build/swarm_navigation
+[2.618s] running symlink_data
+[2.620s] symbolically linking /home/gowtham/crazyflie_ws/build/swarm_navigation/resource/swarm_navigation -> /home/gowtham/crazyflie_ws/install/swarm_navigation/share/ament_index/resource_index/packages
+[2.621s] symbolically linking /home/gowtham/crazyflie_ws/build/swarm_navigation/package.xml -> /home/gowtham/crazyflie_ws/install/swarm_navigation/share/swarm_navigation
+[2.671s] Invoked command in '/home/gowtham/crazyflie_ws/build/swarm_navigation' returned '0': AMENT_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gowtham/crazyflie_ws/build/swarm_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/swarm_navigation/lib/python3.10/site-packages:/home/gowtham/crazyflie_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/swarm_navigation/build --no-deps symlink_data --force

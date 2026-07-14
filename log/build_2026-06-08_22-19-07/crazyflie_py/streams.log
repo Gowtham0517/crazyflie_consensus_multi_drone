@@ -1,0 +1,23 @@
+[1.132s] Invoking command in '/home/gowtham/crazyflie_ws/build/crazyflie_py': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/crazyflie_py/build --no-deps symlink_data
+[1.573s] running develop
+[1.858s] running egg_info
+[1.858s] creating crazyflie_py.egg-info
+[1.858s] writing crazyflie_py.egg-info/PKG-INFO
+[1.858s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[1.859s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[1.859s] writing requirements to crazyflie_py.egg-info/requires.txt
+[1.859s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[1.859s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[1.863s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[1.864s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[1.866s] running build_ext
+[1.866s] Creating /home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+[1.867s] 
+[1.867s] Installed /home/gowtham/crazyflie_ws/build/crazyflie_py
+[1.868s] running symlink_data
+[1.868s] creating /home/gowtham/crazyflie_ws/install/crazyflie_py/share/ament_index
+[1.868s] creating /home/gowtham/crazyflie_ws/install/crazyflie_py/share/ament_index/resource_index
+[1.870s] creating /home/gowtham/crazyflie_ws/install/crazyflie_py/share/ament_index/resource_index/packages
+[1.870s] symbolically linking /home/gowtham/crazyflie_ws/build/crazyflie_py/resource/crazyflie_py -> /home/gowtham/crazyflie_ws/install/crazyflie_py/share/ament_index/resource_index/packages
+[1.870s] symbolically linking /home/gowtham/crazyflie_ws/build/crazyflie_py/package.xml -> /home/gowtham/crazyflie_ws/install/crazyflie_py/share/crazyflie_py
+[1.923s] Invoked command in '/home/gowtham/crazyflie_ws/build/crazyflie_py' returned '0': CMAKE_PREFIX_PATH=/home/gowtham/crazyflie_ws/install/crazyflie_interfaces:/home/gowtham/crazyflie_ws/install/crazyflie_sim:/home/gowtham/crazyflie_ws/install/crazyflie_examples:/home/gowtham/crazyflie_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_sim:/home/gowtham/swarm_ws/install/crazyflie_examples:/home/gowtham/swarm_ws/install/crazyflie:/home/gowtham/swarm_ws/install/crazyflie_interfaces PYTHONPATH=/home/gowtham/crazyflie_ws/build/crazyflie_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gowtham/crazyflie_ws/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gowtham/crazyflie_ws/build/crazyflie_py/build --no-deps symlink_data

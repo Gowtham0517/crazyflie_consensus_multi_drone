@@ -4,3 +4,6 @@ source;share/central_swarm_control/hook/pythonpath.sh
 source;share/central_swarm_control/hook/ament_prefix_path.ps1
 source;share/central_swarm_control/hook/ament_prefix_path.dsv
 source;share/central_swarm_control/hook/ament_prefix_path.sh
+source;../../build/central_swarm_control/share/central_swarm_control/hook/pythonpath_develop.ps1
+source;../../build/central_swarm_control/share/central_swarm_control/hook/pythonpath_develop.dsv
+source;../../build/central_swarm_control/share/central_swarm_control/hook/pythonpath_develop.sh
